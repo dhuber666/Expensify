@@ -19,6 +19,11 @@ export const addExpense = ({
     }
 })
 
+export const removeExpense = (id) => ({
+    type: constants.REMOVE_EXPENSE,
+    id
+})
+
 // Filters
 
 export const setTextFilter = (text) => ({

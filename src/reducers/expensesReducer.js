@@ -25,6 +25,10 @@ const expensesReducer = (state = seed, action) => {
                 ...state,
                 action.expense
             ]
+
+        case constants.REMOVE_EXPENSE:
+            return state.filter(expense => expense.id !== action.id)
+            
         default:
             return state;
     }
