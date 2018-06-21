@@ -1,7 +1,10 @@
 import { combineReducers } from 'redux';
+import expensesReducer from './expensesReducer';
+import filtersReducer from './filtersReducer';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  expenses: expensesReducer,
+  filters: filtersReducer
 });
 
 export default rootReducer;

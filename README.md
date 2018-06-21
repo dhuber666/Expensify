@@ -1,25 +1,14 @@
-# ReduxSimpleStarter
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
-### Getting Started
+On the dashboard you can see a list of all your recent expenses 
+you can add a new expense on the dashboard
 
-There are two methods for getting started with this repo.
+an expense consist of following data:
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+id,
+title,
+amount,
+notes,
+createdAt
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
